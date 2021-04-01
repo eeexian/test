@@ -1,0 +1,224 @@
+.bg-ck{
+	background-image: url("background.svg");
+	position: absolute;
+	width:563px;
+	height:3600px;  
+	left:427px;
+	top:41px;
+}
+.p1-title{
+	background-image: url("Welcome to Cookie Factory.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width:389px;
+	height:124px;
+	left: 58px;
+	top: 270px;
+}
+.p1-subtitle{
+	background-image: url("歡迎來到餅乾工廠.svg");
+	position: absolute;
+	width:171px;
+	height:28px;
+	left:62px;
+	top:408px;
+}
+.scrollmark{
+	background-image: url("純箭頭.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width:156px;
+	height:37px;
+	left:437px;
+	top:710px;
+}
+.p2-subtitle{
+	background-image: url("我們致力於做出.svg");
+	position: absolute;
+	width:149px;
+	height:28px;
+	left:58px; 
+	top:1099px;
+}
+.p2-title{
+	background-image: url("讓每位消費者滿意的餅乾.svg");
+	position: absolute;
+	width:432px;
+	height:50px;
+	margin-left: 50px;
+	margin-top: 1125px;
+}
+.p2-blocks{
+	background-image: url("p2-blocks.svg");
+	position: absolute;
+	width:542.58px;
+	height:650.68px;
+	left: 448px;
+	top: 881.66px;
+}
+.p3-title{
+	background-image: url("classic.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width:187px;
+	height: 59px;
+	left:58px;
+	top:1616px;
+}
+.p3-subtitle{
+	background-image: url("經典之味.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 85px;
+	height: 28px;
+	left:62px;
+	top: 1677px;
+}
+.p3-cookie{
+	background-image: url("classic flavor.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width:921px;
+	height: 894px;
+	left:52px;
+	top: 1789px;
+}
+.p4-title{
+	background-image: url("現在邀您一同創造.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width:313px;
+	height: 50px;
+	left: 58px;
+	top: 3246px;
+}
+.p4-blocks{
+	background-image: url("p4-blocks.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 245px;
+	height: 139px;
+	left: 567px;
+	top: 3202px;
+}
+
+/*button animation*/
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #EAEAEA radial-gradient(circle, transparent 1%, #D5D5D5 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #000;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #00f;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  left: 610px;
+  top: 3550px;
+  position: absolute;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 70px;
+	background: #666;
+	color:#00f;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+.header-content{
+	background-image: url("cookie warning.svg");
+	background-repeat: no-repeat;
+	width:100%;
+	height:28px;
+	position: fixed;
+	top:20px;
+	left:13px;
+}
+
+/*overlay*/
+.overlay{
+	height:100%;
+	width:0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0,0.8);
+	overflow-x: hidden;
+}
+
+.overlay-content{
+	color: #fff;
+	position: relative;
+	width:973px;
+	top:1%;
+	left: 26px;
+}
+
+h1{font-size: 50px;
+	letter-spacing: 1px;}
+h2{font-size: 18px;
+	text-align: justify;}
+p{font-size: 16px;
+	line-height: 1.8;
+	text-align: justify;
+	padding: 5px 0;
+	color: #e2e2e2}
+h3{font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.5; 
+	letter-spacing: 1.2px;}
+
+.overlay .closebtn{
+	color:#fff;
+	font-size: 40px;
+	position: relative;
+	width:100%;
+	top:8%;
+	left: 980px;
+}
+
+.closebtn:hover{
+	color:#00f;
+}
+
+.cookie-a{
+	/*background-image: url("cookie link.svg");
+	background-repeat: no-repeat;*/
+/*	width: 100%;*/
+	position: fixed;
+	top:22px;
+	left: 447px;
+	cursor: pointer;
+	font-size: 21px;
+	letter-spacing: 1.5px;
+	color: #00f;
+	font-family: Helvetica,sans-serif;
+	text-decoration: underline;
+}
+
+.cookie-a:hover{
+	color:#000;
+}
